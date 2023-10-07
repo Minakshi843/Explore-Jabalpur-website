@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            animation: backgroundAnimation 10s infinite alternate;
+            background-color: #ff9999; /* Initial background color */
+        }
+
+        @keyframes backgroundAnimation {
+            0% {
+                background-color: #ff9999; /* Start with one color */
+            }
+            25% {
+                background-color: #99ff99; /* Change to another color */
+            }
+            50% {
+                background-color: #9999ff; /* Change to another color */
+            }
+            75% {
+                background-color: #ffff99; /* Change to another color */
+            }
+            100% {
+                background-color: #ff99ff; /* Back to the first color */
+            }
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Content background color */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        textarea {
+            height: 150px;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 15px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <div class="contact-info">
+            <p><strong>Minakshi Burman</strong></p>
+            <p><strong>Email: </strong><a href=" mailto:minakshiburman2003@gmail.com " target="_blank"> minakshiburman2003@gmail.com </a></p>
+            <p><strong>Linkedin: </strong><a href="https://www.linkedin.com/in/minakshi-burman" target="_blank"> Minakshi Burman</a> </p>
+            <p><strong>Portfolio:</strong> <a href="#" target="_blank">My Portfolio</a></p>
+        </div>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
