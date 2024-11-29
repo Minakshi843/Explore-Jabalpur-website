@@ -2,7 +2,7 @@
 
 ## Live Demo
 Visit the live site here: [Explore Jabalpur Website]
-(https://local-discovery-kylrrjpnt-minakshis-projects-b2b9a0f1.vercel.app/)
+- https://explore-jabalpur-website.vercel.app/
 
 
 ## Project Overview
